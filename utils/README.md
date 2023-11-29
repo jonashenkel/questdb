@@ -103,7 +103,6 @@ io.questdb.cliutil.Table2Ilp -d <destination_table_name> -dc <destination_ilp_ho
 java -cp utils.jar io.questdb.cliutil.Table2Ilp -d trades -dc localhost:9009 -s "trades WHERE start_time in '2022-06'" \ 
      -sc "jdbc:postgresql://localhost:9812/qdb?user=account&password=secret&ssl=false" \
      -sym "ticker,exchagne" -sts start_time
-
 ```
 
 ## Build Utils project
