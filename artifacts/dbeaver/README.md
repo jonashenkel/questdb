@@ -1,6 +1,8 @@
 # PostgreSQL binary
 
-/ca
+&lt;Holocron.Callout type="note"&gt;
+asdfsafdsadf
+&lt;/Holocron.Callout&gt;
 
 Create new PostgreSQL database
 
@@ -63,9 +65,9 @@ LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 A
 WHERE nspname=$1 ORDER BY nspname
 ```
 
-<Holocron.Callout type="note">
-    sadfsadf
-</Holocron.Callout>
+&lt;Holocron.Callout type="note"&gt;
+sadfsadf
+&lt;/Holocron.Callout&gt;
 
 ## extensions
 
