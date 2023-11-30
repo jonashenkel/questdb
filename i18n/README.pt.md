@@ -3,7 +3,6 @@
 </div>
 <p>&nbsp;</p>
 
-
 <p align="center">
   <a href="https://slack.questdb.io">
     <img src="https://slack.questdb.io/badge.svg" alt="QuestDB community Slack channel"/>
@@ -15,7 +14,6 @@
     <img src="https://img.shields.io/maven-central/v/org.questdb/questdb" alt="QuestDB on Apache Maven"/>
   </a>
 </p>
-
 
 [English](https://github.com/questdb/questdb) | [简体中文](README.zh-cn.md) | [繁體中文](README.zh-hk.md) | [العربية](README.ar-dz.md) | [Italiano](README.it-it.md) | [Українська](README.ua-ua.md) | [Español](README.es-es.md) |
 Português | [日本語](./README.ja-ja.md) | [Türkçe](./README.tr-tr.md) | [हिंदी](./README.hn-in.md)
@@ -35,7 +33,6 @@ desempenho de um modelo de armazenamento orientado a colunas, vetor massivamente
 execução, instruções SIMD e várias técnicas de baixa latência. Todo o
 codebase foi construído do zero em Java e C++, sem dependências, e
 é 100% livre de coleta de lixo.
-
 
 <div align="center">
   <a href="https://demo.questdb.io">
@@ -91,19 +88,17 @@ Aqui estão alta cardinalidade
 [Time Series Benchmark Suite](https://questdb.io/blog/2021/06/16/high-cardinality-time-series-data-performance/)
 resultados usando o `cpu-only` caso de uso com 6 trabalhadores em um AMD Ryzen 3970X:
 
-
 <div align="center">
   <a href="https://questdb.io/blog/2021/06/16/high-cardinality-time-series-data-performance/">
     <img alt="A chart comparing the maximum throughput of QuestDB, ClickHouse, TimescaleDB and InfluxDB." width="600" alt="tsbs-results" src="https://user-images.githubusercontent.com/91843271/197382161-e5f3f5b0-18bf-439a-94e4-83ab4bf91d7c.png">
   </a>
 </div>
 
-
 A tabela a seguir mostra o tempo de execução da consulta de um bilhão de linhas executadas em um
 `c5.metal` instância usando 16 das 96 threads disponíveis:
 
 | Query                                                        | Runtime    |
-|--------------------------------------------------------------|------------|
+| ------------------------------------------------------------ | ---------- |
 | `SELECT sum(double) FROM 1bn`                                | 0.061 secs |
 | `SELECT tag, sum(double) FROM 1bn`                           | 0.179 secs |
 | `SELECT tag, sum(double) FROM 1bn WHERE timestamp in '2019'` | 0.05 secs  |
@@ -159,10 +154,12 @@ contribuintes. [Reivindique seus swag aqui.](https://questdb.io/community)
 Um grande agradecimento vai para as seguintes pessoas maravilhosas que contribuíram para
 QuestDB: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tbody>
     <tr>
@@ -309,10 +306,10 @@ QuestDB: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
 
 Este projeto segue a
 [all-contributors](https://github.com/all-contributors/all-contributors)
