@@ -1,5 +1,7 @@
 # PostgreSQL binary
 
+/ca
+
 Create new PostgreSQL database
 
 ```shell script
@@ -60,6 +62,10 @@ SELECT n.oid,n.*,d.description FROM pg_catalog.pg_namespace n
 LEFT OUTER JOIN pg_catalog.pg_description d ON d.objoid=n.oid AND d.objsubid=0 AND d.classoid='pg_namespace'::regclass
 WHERE nspname=$1 ORDER BY nspname
 ```
+
+<Holocron.Callout type="note">
+    sadfsadf
+</Holocron.Callout>
 
 ## extensions
 
