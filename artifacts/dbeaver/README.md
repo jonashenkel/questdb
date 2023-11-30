@@ -29,6 +29,11 @@ ORDER BY nspname;
 select * from pg_catalog.pg_description d where d.classoid='pg_namespace'::regclass
 ```
 
+| asdfsdf |     |     |
+| ------- | --- | --- |
+|         |     |     |
+|         |     |     |
+
 ## roles
 
 ```sql
