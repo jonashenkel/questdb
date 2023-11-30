@@ -7,7 +7,7 @@ investigate storage issues
 
 #### Usage
 
-```html
+```css
 io.questdb.cliutil.TxSerializer -d <txn_path> | -s <json_path> <txn_path>
 ```
 
