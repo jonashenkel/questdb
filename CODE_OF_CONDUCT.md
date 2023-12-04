@@ -2,8 +2,6 @@
 
 ## Our Pledge
 
-![](https://holocron.so/uploads/23d69db9-undefined-1.1701249698176.jpeg)
-
 asdfasdf
 
 asdfsdf
@@ -19,7 +17,7 @@ personal appearance, race, religion, or sexual identity and orientation.
 
 | sadf         |     |     |
 | ------------ | --- | --- |
-| asdfsadf\\   |
+| asdfsadf\\   |     |     |
 | asdfsadfsadf |     |     |
 |              |     |     |
 
