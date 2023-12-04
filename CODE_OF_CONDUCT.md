@@ -17,11 +17,11 @@ size, disability, ethnicity, sex characteristics, gender identity and
 expression, level of experience, education, socio-economic status, nationality,
 personal appearance, race, religion, or sexual identity and orientation.
 
-| sadf                   |     |     |
-| ---------------------- | --- | --- |
-| asdfsadf\
-asdfsadfsadf |     |     |
-|                        |     |     |
+| sadf         |     |     |
+| ------------ | --- | --- |
+| asdfsadf\\   |
+| asdfsadfsadf |     |     |
+|              |     |     |
 
 ## Our Standards
 
