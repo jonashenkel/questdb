@@ -2,7 +2,10 @@
 
 ## Our Pledge
 
-/ta
+| asdf | sasdasd | asd |
+| ---- | ------- | --- |
+| asd  |         |     |
+|      |         |     |
 
 asdfasdf
 
