@@ -18,7 +18,7 @@ The dataset used to generate the queries was created with commands (for
 **Example generated queries:**
 
 ```sql
--- high-cpu-1
+-- high-cpu-1jkh kjh jk jklhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 SELECT *
 FROM cpu
 WHERE usage_user > 90.0
